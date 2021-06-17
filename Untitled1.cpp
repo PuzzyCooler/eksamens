@@ -28,6 +28,18 @@ do{
 	src++;
 }
 }while(a2!=3);
+do{
+	cout<<"\n*******Kas ir nepieciesams, lai izmantot noteiktu simbolu virknes simbolu?*******";
+	cout<<"\n 1. Rakstot simbolu virknes nosaukumu un kvadratiskas iekavas pievienojot vajadziga simbola numuru";
+	cout<<"\n 2. Nerakstot simbolu virknes nosaukumu, bet rakstot kvadratiskas iekavas ar vajadzigo simbola numuru";
+	cout<<"\n 3. Rakstot simbolu virknes nosaukumu, bet nerakstot kvadratiskâs iekavas ar vajadzigo simbola numuru";
+	cout<<"\n 4. Neviens no minetajiem \n";
+	cin>>a2;
+	if(a2==1){
+	cout<<"PAREIZI!" <<endl;
+	src++;
+}
+}while(a2!=1);
 }
 
 
