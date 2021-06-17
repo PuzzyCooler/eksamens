@@ -88,6 +88,18 @@ do{
 	src++;
 }
 }while(a7!=3);
+do{
+	cout<<"\n*******Kas notiek ja virkne ir mazaka par 1? *******";
+	cout<<"\n 1. negatîva virkne";
+	cout<<"\n 2. nekas nenotiek";
+	cout<<"\n 3. izmetas kluda";
+	cout<<"\n 4. skaitlis paliek pozitivs";
+	cin>>a8;
+	if(a8==3){
+	cout<<"PAREIZI!" <<endl;
+	src++;
+}
+}while(a8!=3);
 }
 
 
