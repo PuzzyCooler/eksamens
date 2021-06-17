@@ -64,6 +64,30 @@ do{
 	src++;
 }
 }while(a5!=4);
+do{
+	cout<<"\n*******kads simbols tiks izvadits*******\n -SimboluVirkne:='asdf'\n;T1:='qwer'T2:='1234'\n;SimboluVirkne:=SimboluVirkne+T+A;";
+	cout<<"\n 1. asdfqwer1234";
+	cout<<"\n 2. asdf1234qwer";
+	cout<<"\n 3. 1234asdfqwer";
+	cout<<"\n 4. qwerasdf1234\n";
+	cin>>a6;
+	if(a6==1){
+	cout<<"PAREIZI!" <<endl;
+	src++;
+}
+}while(a6!=1);
+do{
+	cout<<"\n*******Kads ir maksimalais simbolu virknes izmers?*******";
+	cout<<"\n 1. 121";
+	cout<<"\n 2. 55";
+	cout<<"\n 3. 255";
+	cout<<"\n 4. 1250";
+	cin>>a7;
+	if(a7==3){
+	cout<<"PAREIZI!" <<endl;
+	src++;
+}
+}while(a7!=3);
 }
 
 
