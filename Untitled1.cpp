@@ -52,6 +52,18 @@ do{
 	src++;
 }
 }while(a4!=2);
+do{
+	cout<<"\n*******Kas ir simbolu virkne?*******";
+	cout<<"\n 1. Virkne, kura var veidot matematiskus aprekinus";
+	cout<<"\n 2. Gramatu virkne";
+	cout<<"\n 3. Virkne, kur atrodas if else un switch";
+	cout<<"\n 4. Virkne, kura katrs simbols tiek interpretets atbilstosi ta tipam \n";
+	cin>>a5;
+	if(a5==4){
+	cout<<"PAREIZI!" <<endl;
+	src++;
+}
+}while(a5!=4);
 }
 
 
