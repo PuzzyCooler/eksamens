@@ -14,6 +14,14 @@ cin>>a1;
 if(a1==4){
 	src++;
 }
+	cout<<"\n*******Kas skaitas simbols?*******";
+	cout<<"\n 1. Tikai skaitlis";
+	cout<<"\n 2. Tikai burti";
+	cout<<"\n 3. Skaitli un burti";
+	cout<<"\n 4. neviens no minetajiem \n";
+	cin>>a2;
+	if(a2==3){
+	src++;
 }
-while(a1!=4);
+}while(a1!=4 && a2!=3);
 }
