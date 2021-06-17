@@ -81,7 +81,7 @@ do{
 	cout<<"\n 1. 121";
 	cout<<"\n 2. 55";
 	cout<<"\n 3. 255";
-	cout<<"\n 4. 1250";
+	cout<<"\n 4. 1250\n";
 	cin>>a7;
 	if(a7==3){
 	cout<<"PAREIZI!" <<endl;
@@ -93,13 +93,25 @@ do{
 	cout<<"\n 1. negatîva virkne";
 	cout<<"\n 2. nekas nenotiek";
 	cout<<"\n 3. izmetas kluda";
-	cout<<"\n 4. skaitlis paliek pozitivs";
+	cout<<"\n 4. skaitlis paliek pozitivs\n";
 	cin>>a8;
 	if(a8==3){
 	cout<<"PAREIZI!" <<endl;
 	src++;
 }
 }while(a8!=3);
+do{
+	cout<<"\n*******kada funkcija ir jaizmanto lai redzetu cik gara ir virkne? *******";
+	cout<<"\n 1. nav tadas funkcijas";
+	cout<<"\n 2. lenght";
+	cout<<"\n 3. lenght";
+	cout<<"\n 4. long\n";
+	cin>>a9;
+	if(a9==2){
+	cout<<"PAREIZI!" <<endl;
+	src++;
+}
+}while(a9!=2);
 }
 
 
