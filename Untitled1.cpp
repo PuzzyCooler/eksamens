@@ -34,12 +34,24 @@ do{
 	cout<<"\n 2. Nerakstot simbolu virknes nosaukumu, bet rakstot kvadratiskas iekavas ar vajadzigo simbola numuru";
 	cout<<"\n 3. Rakstot simbolu virknes nosaukumu, bet nerakstot kvadratiskâs iekavas ar vajadzigo simbola numuru";
 	cout<<"\n 4. Neviens no minetajiem \n";
-	cin>>a2;
-	if(a2==1){
+	cin>>a3;
+	if(a3==1){
 	cout<<"PAREIZI!" <<endl;
 	src++;
 }
-}while(a2!=1);
+}while(a3!=1);
+do{
+	cout<<"\n*******Kads simbols tiks izvadits******* - \nstring Vaards=""Reinis"";\ncout<<Vaards[3];\n";
+	cout<<"\n 1. a";
+	cout<<"\n 2. n";
+	cout<<"\n 3. x";
+	cout<<"\n 4. e \n";
+	cin>>a4;
+	if(a4==2){
+	cout<<"PAREIZI!" <<endl;
+	src++;
+}
+}while(a4!=2);
 }
 
 
